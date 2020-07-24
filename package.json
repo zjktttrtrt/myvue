@@ -1,0 +1,23 @@
+{
+  "name": "vuepress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "element-ui": "^2.13.2"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2"
+  }
+}
